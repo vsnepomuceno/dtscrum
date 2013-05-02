@@ -26,10 +26,11 @@ public class DTSWizard_1 extends WizardPage {
 
 	public DTSWizard_1() {
 		super("DTSWizard");
-		setTitle("IB´s Input");
-		setDescription("Add all IB´s in this Sprint. " +
-				"\nThe IB's time must be considered from " +
-				"the team minor seniority develorper.\n");
+		setTitle("IBs Input");
+		setDescription("Add all IBs in this Sprint. " +
+				"\nThe IB's time must be considered " +
+				"from the developer with minor seniority " +
+				"among team members.");
 		this.tasks = new ArrayList<Task>();
 	}
 
